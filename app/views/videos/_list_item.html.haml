@@ -1,4 +1,8 @@
-%li
-  = link_to video.name, show_video_path(video.url)
-  (
-  )
+%ul
+  %li
+    = link_to video.name, video_path(video.url)
+    %small
+      = link_to 'edit', edit_video_path(video.id)
+    %br 
+    Tags: 
+    = raw video.tags.map { |t| link_to t.name, tag_path(t.name) }.join(', ')

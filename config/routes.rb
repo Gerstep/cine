@@ -40,8 +40,12 @@ Rails.application.routes.draw do
 
   # Videos
   resources :videos
-  get '/show/:id' => 'videos#show', as: 'show_video'
-  get '/video/list' => 'videos#list', as: 'video_list'
+  # get '/show/:id' => 'videos#show', as: 'show_video'
+  # get '/video/list' => 'videos#list', as: 'video_list'
+  # get '/show/:id/edit' => 'videos#edit', as: 'video_edit'
+
+  # Tags
+  get 'tags/:tag' => 'videos#index', as: 'tag'
 
   # Dummy preview pages for testing.
   get '/p/test' => 'pages#test', as: 'test'

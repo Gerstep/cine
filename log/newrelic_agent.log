@@ -564,3 +564,180 @@
 [05/14/14 12:51:22 -0700 Stepans-MacBook-Pro.local (5995)] INFO : Finished instrumentation
 [05/14/14 12:56:29 -0700 Stepans-MacBook-Pro.local (5609)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `cat' for #<Video:0x00000110ea5478>
 [05/14/14 12:56:29 -0700 Stepans-MacBook-Pro.local (5609)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `cat' for #<Video:0x00000108e622c0>
+[05/14/14 13:04:21 -0700 Stepans-MacBook-Pro.local (6118)] INFO : Starting the New Relic agent in "development" environment.
+[05/14/14 13:04:21 -0700 Stepans-MacBook-Pro.local (6118)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/14/14 13:04:21 -0700 Stepans-MacBook-Pro.local (6118)] INFO : Reading configuration from config/newrelic.yml
+[05/14/14 13:04:21 -0700 Stepans-MacBook-Pro.local (6118)] ERROR : Unable to read configuration file config/newrelic.yml: (<unknown>): mapping values are not allowed in this context at line 45 column 32
+[05/14/14 13:04:21 -0700 Stepans-MacBook-Pro.local (6118)] INFO : Enabling the Request Sampler.
+[05/14/14 13:04:21 -0700 Stepans-MacBook-Pro.local (6118)] INFO : Environment: development
+[05/14/14 13:04:21 -0700 Stepans-MacBook-Pro.local (6118)] INFO : No known dispatcher detected.
+[05/14/14 13:04:21 -0700 Stepans-MacBook-Pro.local (6118)] INFO : Application: development
+[05/14/14 13:04:21 -0700 Stepans-MacBook-Pro.local (6118)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[05/14/14 13:04:21 -0700 Stepans-MacBook-Pro.local (6118)] INFO : Installing ActiveRecord 4 instrumentation
+[05/14/14 13:04:21 -0700 Stepans-MacBook-Pro.local (6118)] INFO : Installing Net instrumentation
+[05/14/14 13:04:21 -0700 Stepans-MacBook-Pro.local (6118)] INFO : Installing deferred Rack instrumentation
+[05/14/14 13:04:21 -0700 Stepans-MacBook-Pro.local (6118)] INFO : Installing Sidekiq instrumentation
+[05/14/14 13:04:21 -0700 Stepans-MacBook-Pro.local (6118)] INFO : Installing Rails 4 Controller instrumentation
+[05/14/14 13:04:21 -0700 Stepans-MacBook-Pro.local (6118)] INFO : Installing Rails 4 view instrumentation
+[05/14/14 13:04:21 -0700 Stepans-MacBook-Pro.local (6118)] INFO : Installing Rails4 Error instrumentation
+[05/14/14 13:04:21 -0700 Stepans-MacBook-Pro.local (6118)] INFO : Finished instrumentation
+[05/14/14 13:09:09 -0700 Stepans-MacBook-Pro.local (5609)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `attr_accessible' for #<Class:0x00000108114168>
+[05/14/14 13:09:22 -0700 Stepans-MacBook-Pro.local (5609)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: /Users/Space/Apps/cine/app/models/video.rb:2: syntax error, unexpected ':', expecting keyword_end
+	attr_accessible: :tag_list
+	                ^
+[05/14/14 13:09:59 -0700 Stepans-MacBook-Pro.local (5609)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `attr_accessible' for #<Class:0x00000110b3d1f0>
+[05/14/14 13:09:59 -0700 Stepans-MacBook-Pro.local (5609)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `attr_accessible' for #<Class:0x00000110a56f70>
+[05/14/14 13:10:40 -0700 Stepans-MacBook-Pro.local (5609)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined local variable or method `acts_as_taggable' for #<Class:0x00000106e51e18>
+[05/14/14 13:11:15 -0700 Stepans-MacBook-Pro.local (6229)] INFO : Starting the New Relic agent in "development" environment.
+[05/14/14 13:11:15 -0700 Stepans-MacBook-Pro.local (6229)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/14/14 13:11:15 -0700 Stepans-MacBook-Pro.local (6229)] INFO : Reading configuration from config/newrelic.yml
+[05/14/14 13:11:15 -0700 Stepans-MacBook-Pro.local (6229)] ERROR : Unable to read configuration file config/newrelic.yml: (<unknown>): mapping values are not allowed in this context at line 45 column 32
+[05/14/14 13:11:15 -0700 Stepans-MacBook-Pro.local (6229)] INFO : Enabling the Request Sampler.
+[05/14/14 13:11:15 -0700 Stepans-MacBook-Pro.local (6229)] INFO : Environment: development
+[05/14/14 13:11:15 -0700 Stepans-MacBook-Pro.local (6229)] INFO : Dispatcher: webrick
+[05/14/14 13:11:15 -0700 Stepans-MacBook-Pro.local (6229)] INFO : Application: development
+[05/14/14 13:11:15 -0700 Stepans-MacBook-Pro.local (6229)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[05/14/14 13:11:15 -0700 Stepans-MacBook-Pro.local (6229)] INFO : Installing ActiveRecord 4 instrumentation
+[05/14/14 13:11:15 -0700 Stepans-MacBook-Pro.local (6229)] INFO : Installing Net instrumentation
+[05/14/14 13:11:15 -0700 Stepans-MacBook-Pro.local (6229)] INFO : Installing deferred Rack instrumentation
+[05/14/14 13:11:15 -0700 Stepans-MacBook-Pro.local (6229)] INFO : Installing Sidekiq instrumentation
+[05/14/14 13:11:15 -0700 Stepans-MacBook-Pro.local (6229)] INFO : Installing Rails 4 Controller instrumentation
+[05/14/14 13:11:15 -0700 Stepans-MacBook-Pro.local (6229)] INFO : Installing Rails 4 view instrumentation
+[05/14/14 13:11:15 -0700 Stepans-MacBook-Pro.local (6229)] INFO : Installing Rails4 Error instrumentation
+[05/14/14 13:11:15 -0700 Stepans-MacBook-Pro.local (6229)] INFO : Finished instrumentation
+[05/14/14 13:11:15 -0700 Stepans-MacBook-Pro.local (6229)] INFO : Doing deferred dependency-detection before Rack startup
+[05/14/14 13:11:15 -0700 Stepans-MacBook-Pro.local (6229)] INFO : Installing Sinatra instrumentation
+[05/14/14 13:11:16 -0700 Stepans-MacBook-Pro.local (6229)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/14/14 13:11:16 -0700 Stepans-MacBook-Pro.local (6229)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/14/14 13:26:33 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: /Users/Space/Apps/cine/app/views/videos/edit.html.haml:25: syntax error, unexpected keyword_ensure, expecting keyword_end
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                               ^
+/Users/Space/Apps/cine/app/views/videos/edit.html.haml:26: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/Space/Apps/cine/app/views/videos/edit.html.haml:28: syntax error, unexpected end-of-input, expecting keyword_end
+[05/14/14 13:26:33 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: /Users/Space/Apps/cine/app/views/videos/edit.html.haml:25: syntax error, unexpected keyword_ensure, expecting keyword_end
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                               ^
+/Users/Space/Apps/cine/app/views/videos/edit.html.haml:26: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/Space/Apps/cine/app/views/videos/edit.html.haml:28: syntax error, unexpected end-of-input, expecting keyword_end
+[05/14/14 13:26:37 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Couldn't find Video with 'id'=3
+[05/14/14 13:26:39 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: /Users/Space/Apps/cine/app/views/videos/edit.html.haml:25: syntax error, unexpected keyword_ensure, expecting keyword_end
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                               ^
+/Users/Space/Apps/cine/app/views/videos/edit.html.haml:26: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/Space/Apps/cine/app/views/videos/edit.html.haml:28: syntax error, unexpected end-of-input, expecting keyword_end
+[05/14/14 13:26:40 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: /Users/Space/Apps/cine/app/views/videos/edit.html.haml:25: syntax error, unexpected keyword_ensure, expecting keyword_end
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                               ^
+/Users/Space/Apps/cine/app/views/videos/edit.html.haml:26: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/Space/Apps/cine/app/views/videos/edit.html.haml:28: syntax error, unexpected end-of-input, expecting keyword_end
+[05/14/14 13:28:02 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: /Users/Space/Apps/cine/app/views/videos/edit.html.haml:25: syntax error, unexpected keyword_ensure, expecting keyword_end
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                               ^
+/Users/Space/Apps/cine/app/views/videos/edit.html.haml:28: syntax error, unexpected end-of-input, expecting keyword_end
+[05/14/14 13:28:03 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: /Users/Space/Apps/cine/app/views/videos/edit.html.haml:25: syntax error, unexpected keyword_ensure, expecting keyword_end
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                               ^
+/Users/Space/Apps/cine/app/views/videos/edit.html.haml:28: syntax error, unexpected end-of-input, expecting keyword_end
+[05/14/14 13:28:22 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: /Users/Space/Apps/cine/app/views/videos/edit.html.haml:23: syntax error, unexpected keyword_ensure, expecting keyword_end
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                               ^
+/Users/Space/Apps/cine/app/views/videos/edit.html.haml:26: syntax error, unexpected end-of-input, expecting keyword_end
+[05/14/14 13:28:23 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: /Users/Space/Apps/cine/app/views/videos/edit.html.haml:23: syntax error, unexpected keyword_ensure, expecting keyword_end
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                               ^
+/Users/Space/Apps/cine/app/views/videos/edit.html.haml:26: syntax error, unexpected end-of-input, expecting keyword_end
+[05/14/14 13:28:36 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: /Users/Space/Apps/cine/app/views/videos/edit.html.haml:23: syntax error, unexpected keyword_ensure, expecting keyword_end
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                               ^
+/Users/Space/Apps/cine/app/views/videos/edit.html.haml:26: syntax error, unexpected end-of-input, expecting keyword_end
+[05/14/14 13:28:37 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: /Users/Space/Apps/cine/app/views/videos/edit.html.haml:23: syntax error, unexpected keyword_ensure, expecting keyword_end
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                               ^
+/Users/Space/Apps/cine/app/views/videos/edit.html.haml:26: syntax error, unexpected end-of-input, expecting keyword_end
+[05/14/14 13:28:42 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: /Users/Space/Apps/cine/app/views/videos/edit.html.haml:23: syntax error, unexpected keyword_ensure, expecting keyword_end
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                               ^
+/Users/Space/Apps/cine/app/views/videos/edit.html.haml:26: syntax error, unexpected end-of-input, expecting keyword_end
+[05/14/14 13:28:59 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: /Users/Space/Apps/cine/app/views/videos/edit.html.haml:12: syntax error, unexpected keyword_ensure, expecting keyword_end
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                               ^
+/Users/Space/Apps/cine/app/views/videos/edit.html.haml:15: syntax error, unexpected end-of-input, expecting keyword_end
+[05/14/14 13:29:00 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: /Users/Space/Apps/cine/app/views/videos/edit.html.haml:12: syntax error, unexpected keyword_ensure, expecting keyword_end
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                               ^
+/Users/Space/Apps/cine/app/views/videos/edit.html.haml:15: syntax error, unexpected end-of-input, expecting keyword_end
+[05/14/14 13:29:01 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: /Users/Space/Apps/cine/app/views/videos/edit.html.haml:12: syntax error, unexpected keyword_ensure, expecting keyword_end
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                               ^
+/Users/Space/Apps/cine/app/views/videos/edit.html.haml:15: syntax error, unexpected end-of-input, expecting keyword_end
+[05/14/14 13:29:06 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: /Users/Space/Apps/cine/app/views/videos/edit.html.haml:23: syntax error, unexpected keyword_ensure, expecting keyword_end
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                               ^
+/Users/Space/Apps/cine/app/views/videos/edit.html.haml:26: syntax error, unexpected end-of-input, expecting keyword_end
+[05/14/14 13:29:11 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `video_path' for #<#<Class:0x000001025abd80>:0x000001107821c8>
+[05/14/14 13:30:59 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: /Users/Space/Apps/cine/app/views/videos/edit.html.haml:21: syntax error, unexpected keyword_ensure, expecting keyword_end
+...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
+...                               ^
+/Users/Space/Apps/cine/app/views/videos/edit.html.haml:24: syntax error, unexpected end-of-input, expecting keyword_end
+[05/14/14 13:31:07 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `errors' for nil:NilClass
+[05/14/14 13:33:19 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: The line was indented 2 levels deeper than the previous line.
+[05/14/14 13:33:31 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: /Users/Space/Apps/cine/app/views/videos/edit.html.haml:5: syntax error, unexpected '.'
+...n_path(resource_name) do |f|  .field
+...                               ^
+[05/14/14 13:33:46 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: /Users/Space/Apps/cine/app/views/videos/edit.html.haml:5: syntax error, unexpected '.'
+...n_path(resource_name) do |f|  .field
+...                               ^
+[05/14/14 13:33:47 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: /Users/Space/Apps/cine/app/views/videos/edit.html.haml:5: syntax error, unexpected '.'
+...n_path(resource_name) do |f|  .field
+...                               ^
+[05/14/14 13:34:06 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: /Users/Space/Apps/cine/app/views/videos/edit.html.haml:5: syntax error, unexpected '.'
+...n_path(resource_name) do |f|  .field
+...                               ^
+[05/14/14 13:34:11 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: /Users/Space/Apps/cine/app/views/videos/edit.html.haml:5: syntax error, unexpected '.'
+...n_path(resource_name) do |f|  .field
+...                               ^
+[05/14/14 13:34:21 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: /Users/Space/Apps/cine/app/views/videos/edit.html.haml:5: syntax error, unexpected '.'
+simple_form_for video, as: video, url: video_path do |f|  .field
+                                                           ^
+[05/14/14 13:34:38 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined local variable or method `video' for #<#<Class:0x00000105334a90>:0x0000010758c7c8>
+[05/14/14 13:34:52 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined local variable or method `video' for #<#<Class:0x00000105334a90>:0x0000010519fc48>
+[05/14/14 13:42:43 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined local variable or method `video_list_path' for #<#<Class:0x000001160a21e0>:0x000001160a1740>
+[05/14/14 13:42:44 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined local variable or method `video_list_path' for #<#<Class:0x000001160a21e0>:0x0000010357e0f0>
+[05/14/14 13:43:18 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `show_video_path' for #<#<Class:0x00000109fdf278>:0x00000109fde490>
+[05/14/14 13:43:20 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `show_video_path' for #<#<Class:0x00000109fdf278>:0x00000103534bf8>
+[05/14/14 13:44:19 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `show_path' for #<#<Class:0x00000109fdf278>:0x00000105480ca0>
+[05/14/14 13:44:58 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `video_edit_path' for #<#<Class:0x00000109fdf278>:0x0000010f3d3500>
+[05/14/14 13:45:17 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Couldn't find Video with 'id'=test
+[05/14/14 13:45:17 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Couldn't find Video with 'id'=test
+[05/14/14 13:45:35 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined local variable or method `video_edit_path' for #<#<Class:0x00000109fdf278>:0x00000116099928>
+[05/14/14 13:45:36 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined local variable or method `video_edit_path' for #<#<Class:0x00000109fdf278>:0x000001075dfd38>
+[05/14/14 13:46:15 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined local variable or method `video_edit_path' for #<#<Class:0x00000109fdf278>:0x0000010b20e8b8>
+[05/14/14 13:46:16 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined local variable or method `video_edit_path' for #<#<Class:0x00000109fdf278>:0x00000108118088>
+[05/14/14 13:47:57 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined local variable or method `video_update_path' for #<#<Class:0x00000109fdf278>:0x000001072bc2f0>
+[05/14/14 13:48:21 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: ActiveModel::ForbiddenAttributesError
+[05/14/14 13:49:22 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: When assigning attributes, you must pass a hash as an argument.
+[05/14/14 13:50:30 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: wrong number of arguments (0 for 1)
+[05/14/14 13:50:38 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `update_attributes?' for #<Video:0x000001077c6070>
+[05/14/14 13:50:58 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: When assigning attributes, you must pass a hash as an argument.
+[05/14/14 13:51:13 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: ActiveModel::ForbiddenAttributesError
+[05/14/14 13:54:23 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: ActiveModel::ForbiddenAttributesError
+[05/14/14 14:01:58 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Inconsistent indentation: "\t  " used for indentation, but the rest of the document was indented using 2 spaces.
+[05/14/14 14:07:16 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined local variable or method `tag_path' for #<#<Class:0x0000010b61a3d0>:0x0000010f587400>
+[05/14/14 14:08:14 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: No route matches {:action=>"index", :controller=>"videos"} missing required keys: [:tag]
+[05/14/14 14:09:12 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: No route matches {:action=>"index", :controller=>"videos"} missing required keys: [:tag]
+[05/14/14 14:09:15 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: No route matches {:action=>"index", :controller=>"videos"} missing required keys: [:tag]
+[05/14/14 14:09:15 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: No route matches {:action=>"index", :controller=>"videos"} missing required keys: [:tag]
+[05/14/14 14:09:36 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: No route matches {:action=>"index", :controller=>"videos"} missing required keys: [:tag]
+[05/14/14 14:09:53 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: No route matches {:action=>"index", :controller=>"videos"} missing required keys: [:tag]
+[05/14/14 14:09:55 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: No route matches {:action=>"index", :controller=>"videos"} missing required keys: [:tag]
+[05/14/14 14:10:23 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: No route matches {:action=>"index", :controller=>"videos"} missing required keys: [:t]
+[05/14/14 14:10:40 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: wrong number of arguments (0 for 1..4)
+[05/14/14 14:11:04 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: No route matches {:action=>"index", :controller=>"videos"} missing required keys: [:tag]
+[05/14/14 14:11:50 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: No route matches {:action=>"index", :controller=>"videos"} missing required keys: [:tag]
+[05/14/14 14:12:16 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: No route matches {:action=>"index", :controller=>"videos"} missing required keys: [:tag]
+[05/14/14 14:12:16 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: No route matches {:action=>"index", :controller=>"videos"} missing required keys: [:tag]
+[05/14/14 14:12:30 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: No route matches {:action=>"index", :controller=>"videos"} missing required keys: [:tag]
+[05/14/14 14:14:35 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `name' for "music":String
+[05/14/14 14:14:36 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `name' for "music":String
+[05/14/14 14:14:48 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `name' for "music":String
+[05/14/14 14:18:19 -0700 Stepans-MacBook-Pro.local (6229)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: wrong number of arguments (1 for 2)

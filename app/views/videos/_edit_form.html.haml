@@ -1,0 +1,14 @@
+= simple_form_for @video, as: @video, url: video_path do |f| 
+  = f.label :name
+  %br
+  = f.text_field :name
+  %p
+  = f.label :url
+  %br
+  = f.text_field :url
+  %p
+  = f.label :tag_list, "Tags (separated by commas)"
+  %br
+  = f.text_field :tag_list
+  %p
+  = f.button :submit, class: 'btn-primary'

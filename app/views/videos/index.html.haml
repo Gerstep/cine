@@ -1,6 +1,10 @@
 %h1 Video List
 
 %p
+  - tag_cloud Video.tag_counts, %w[text-muted text-success text-primary] do |tag, css|
+    = link_to tag.name, tag_path(tag.name), class: css
+
+%p
   - @list.each do |video|
     = render :partial => 'videos/list_item', :locals => { :video => video }
 %p

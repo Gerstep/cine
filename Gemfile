@@ -17,6 +17,9 @@ gem 'terminal-notifier', group: [:development]
 gem 'embedly'
 gem 'json'
 
+#Tagging
+gem 'acts-as-taggable-on'
+
 # Monitoring
 gem 'rack-timeout', '~> 0.1.0beta3'
 gem 'newrelic_rpm'

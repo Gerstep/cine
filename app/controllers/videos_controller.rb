@@ -10,7 +10,30 @@ class VideosController < ApplicationController
 		@obj = params[:id]
 	end
 
-	def list
-		@list = Video.all
+	def index
+		if params[:tag]
+			@list = Video.tagged_with(params[:tag])
+		else
+			@list = Video.all
+		end
+	end
+
+	def edit
+    	@video = Video.find(params[:id])
+  	end
+
+	def update
+		@video = Video.find(params[:id])
+		if @video.update_attributes(video_params)
+		  redirect_to @video, notice: "Updated video."
+		else
+		  render :edit
+		end
+	end
+
+	private
+
+	def video_params
+		params.require(:video).permit(:name, :id, :url, :tag_list)
 	end
 end

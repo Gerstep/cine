@@ -1,2 +1,0 @@
-o: ActiveSupport::Cache::Entry:@value{I"_csrf_token:EFI"1woGvukobfhwb7lIJTWwPT6C4NsHAM6iiFawcot2l5Xw=;FI"omniauth.params;T{I"	flow;TI"
-login;TI"omniauth.origin;T""http://localhost:3000/a/loginI"omniauth.state;TI"571cc116b71793e56b6ff1a539ae2aa4f961321d1361a9f24;FI"warden.user.user.session;T{I"last_request_at;TIu:	TimeÄ‘ÀúŽ²:	zoneI";TI"user_return_to;FI"/video/list;TI"user_return_to_timestamp;Fl+ÇsS:@created_atf1400097398.741128:@expires_inf2.592e6
