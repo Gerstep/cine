@@ -4,10 +4,11 @@ class VideosController < ApplicationController
 
 	def show
 		embedly_api = Embedly::API.new :user_agent => 'Mozilla/5.0 (compatible; mytestapp/1.0; my@email.com)'
+		url = Video.find(params[:id]).url
 		metadata = embedly_api.oembed(
-			:url => 'http://www.youtube.com/watch?v=sPbJ4Z5D-n4&feature=topvideos',
-			:maxwidth => 200)
-		@obj = params[:id]
+			:url => url,
+			:maxwidth => 400)
+		@obj = metadata[0].marshal_dump
 	end
 
 	def index
