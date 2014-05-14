@@ -20,17 +20,13 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 
-#
-# TODO: Replace instances of 'StarterKit' in this file with your app brand name.
-#
-
 en:
   brand:
-    name: 'StarterKit'
+    name: 'Cine'
 
   emails:
     welcome:
-      subject: 'Welcome to StarterKit'
+      subject: 'Welcome to Cine'
 
   auth:
     login:
