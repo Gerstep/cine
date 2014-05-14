@@ -1,0 +1,11 @@
+Automatically load on login with:
+  launchctl load -w /usr/local/Cellar/redis/2.2.2/io.redis.redis-server.plist
+ 
+To start redis manually:
+  redis-server /usr/local/etc/redis.conf
+ 
+To access the server:
+  redis-cli
+
+
+  
