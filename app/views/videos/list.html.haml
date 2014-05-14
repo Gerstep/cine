@@ -1,0 +1,10 @@
+%h1 Video List
+
+%p
+  - @list.each do |video|
+    = render :partial => 'videos/list_item', :locals => { :video => video }
+%p
+- if @list.empty?
+  .alert.alert-dismissable{class: "alert-warning"}
+    %button.close{'data-dismiss' => 'alert', 'aria-hidden' => true} &times;
+    = msg

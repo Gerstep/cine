@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140204233952) do
+ActiveRecord::Schema.define(version: 20140514195123) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -69,7 +69,6 @@ ActiveRecord::Schema.define(version: 20140204233952) do
     t.text     "data_json",         null: false
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.index ["authentication_id"], :name => "fk__oauth_caches_authentication_id"
     t.index ["authentication_id"], :name => "index_oauth_caches_on_authentication_id"
     t.foreign_key ["authentication_id"], "authentications", ["id"], :on_update => :no_action, :on_delete => :no_action, :name => "fk_oauth_caches_authentication_id"
   end
@@ -84,6 +83,14 @@ ActiveRecord::Schema.define(version: 20140204233952) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.index ["item", "table", "month", "year"], :name => "index_rails_admin_histories"
+  end
+
+  create_table "videos", force: true do |t|
+    t.string   "name"
+    t.string   "url"
+    t.string   "provider"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
 end

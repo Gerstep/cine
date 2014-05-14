@@ -163,3 +163,404 @@
 [05/13/14 20:16:36 -0700 Stepans-MacBook-Pro.local (1853)] INFO : Installing Sinatra instrumentation
 [05/13/14 20:16:39 -0700 Stepans-MacBook-Pro.local (1853)] ERROR : Invalid license key, please contact support@newrelic.com
 [05/13/14 20:16:39 -0700 Stepans-MacBook-Pro.local (1853)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/13/14 22:07:55 -0700 Stepans-MacBook-Pro.local (2489)] INFO : Starting the New Relic agent in "development" environment.
+[05/13/14 22:07:55 -0700 Stepans-MacBook-Pro.local (2489)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/13/14 22:07:55 -0700 Stepans-MacBook-Pro.local (2489)] INFO : Reading configuration from config/newrelic.yml
+[05/13/14 22:07:55 -0700 Stepans-MacBook-Pro.local (2489)] ERROR : Unable to read configuration file config/newrelic.yml: (<unknown>): mapping values are not allowed in this context at line 45 column 32
+[05/13/14 22:07:55 -0700 Stepans-MacBook-Pro.local (2489)] INFO : Enabling the Request Sampler.
+[05/13/14 22:07:55 -0700 Stepans-MacBook-Pro.local (2489)] INFO : Environment: development
+[05/13/14 22:07:55 -0700 Stepans-MacBook-Pro.local (2489)] INFO : No known dispatcher detected.
+[05/13/14 22:07:55 -0700 Stepans-MacBook-Pro.local (2489)] INFO : Application: development
+[05/13/14 22:07:55 -0700 Stepans-MacBook-Pro.local (2489)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[05/13/14 22:07:55 -0700 Stepans-MacBook-Pro.local (2489)] INFO : Installing ActiveRecord 4 instrumentation
+[05/13/14 22:07:55 -0700 Stepans-MacBook-Pro.local (2489)] INFO : Installing Net instrumentation
+[05/13/14 22:07:55 -0700 Stepans-MacBook-Pro.local (2489)] INFO : Installing deferred Rack instrumentation
+[05/13/14 22:07:55 -0700 Stepans-MacBook-Pro.local (2489)] INFO : Installing Sidekiq instrumentation
+[05/13/14 22:07:55 -0700 Stepans-MacBook-Pro.local (2489)] INFO : Installing Rails 4 Controller instrumentation
+[05/13/14 22:07:55 -0700 Stepans-MacBook-Pro.local (2489)] INFO : Installing Rails 4 view instrumentation
+[05/13/14 22:07:55 -0700 Stepans-MacBook-Pro.local (2489)] INFO : Installing Rails4 Error instrumentation
+[05/13/14 22:07:55 -0700 Stepans-MacBook-Pro.local (2489)] INFO : Finished instrumentation
+[05/13/14 22:20:02 -0700 Stepans-MacBook-Pro.local (2640)] INFO : Starting the New Relic agent in "development" environment.
+[05/13/14 22:20:02 -0700 Stepans-MacBook-Pro.local (2640)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/13/14 22:20:02 -0700 Stepans-MacBook-Pro.local (2640)] INFO : Reading configuration from config/newrelic.yml
+[05/13/14 22:20:02 -0700 Stepans-MacBook-Pro.local (2640)] ERROR : Unable to read configuration file config/newrelic.yml: (<unknown>): mapping values are not allowed in this context at line 45 column 32
+[05/13/14 22:20:02 -0700 Stepans-MacBook-Pro.local (2640)] INFO : Enabling the Request Sampler.
+[05/13/14 22:20:02 -0700 Stepans-MacBook-Pro.local (2640)] INFO : Environment: development
+[05/13/14 22:20:02 -0700 Stepans-MacBook-Pro.local (2640)] INFO : Dispatcher: webrick
+[05/13/14 22:20:02 -0700 Stepans-MacBook-Pro.local (2640)] INFO : Application: development
+[05/13/14 22:20:02 -0700 Stepans-MacBook-Pro.local (2640)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[05/13/14 22:20:02 -0700 Stepans-MacBook-Pro.local (2640)] INFO : Installing ActiveRecord 4 instrumentation
+[05/13/14 22:20:02 -0700 Stepans-MacBook-Pro.local (2640)] INFO : Installing Net instrumentation
+[05/13/14 22:20:02 -0700 Stepans-MacBook-Pro.local (2640)] INFO : Installing deferred Rack instrumentation
+[05/13/14 22:20:02 -0700 Stepans-MacBook-Pro.local (2640)] INFO : Installing Sidekiq instrumentation
+[05/13/14 22:20:02 -0700 Stepans-MacBook-Pro.local (2640)] INFO : Installing Rails 4 Controller instrumentation
+[05/13/14 22:20:02 -0700 Stepans-MacBook-Pro.local (2640)] INFO : Installing Rails 4 view instrumentation
+[05/13/14 22:20:02 -0700 Stepans-MacBook-Pro.local (2640)] INFO : Installing Rails4 Error instrumentation
+[05/13/14 22:20:02 -0700 Stepans-MacBook-Pro.local (2640)] INFO : Finished instrumentation
+[05/13/14 22:20:02 -0700 Stepans-MacBook-Pro.local (2640)] INFO : Doing deferred dependency-detection before Rack startup
+[05/13/14 22:20:02 -0700 Stepans-MacBook-Pro.local (2640)] INFO : Installing Sinatra instrumentation
+[05/13/14 22:20:04 -0700 Stepans-MacBook-Pro.local (2640)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/13/14 22:20:04 -0700 Stepans-MacBook-Pro.local (2640)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/13/14 22:28:57 -0700 Stepans-MacBook-Pro.local (2710)] INFO : Starting the New Relic agent in "development" environment.
+[05/13/14 22:28:57 -0700 Stepans-MacBook-Pro.local (2710)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/13/14 22:28:57 -0700 Stepans-MacBook-Pro.local (2710)] INFO : Reading configuration from config/newrelic.yml
+[05/13/14 22:28:57 -0700 Stepans-MacBook-Pro.local (2710)] ERROR : Unable to read configuration file config/newrelic.yml: (<unknown>): mapping values are not allowed in this context at line 45 column 32
+[05/13/14 22:28:57 -0700 Stepans-MacBook-Pro.local (2710)] INFO : Enabling the Request Sampler.
+[05/13/14 22:28:57 -0700 Stepans-MacBook-Pro.local (2710)] INFO : Environment: development
+[05/13/14 22:28:57 -0700 Stepans-MacBook-Pro.local (2710)] INFO : No known dispatcher detected.
+[05/13/14 22:28:57 -0700 Stepans-MacBook-Pro.local (2710)] INFO : Application: development
+[05/13/14 22:28:57 -0700 Stepans-MacBook-Pro.local (2710)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[05/13/14 22:28:57 -0700 Stepans-MacBook-Pro.local (2710)] INFO : Installing ActiveRecord 4 instrumentation
+[05/13/14 22:28:57 -0700 Stepans-MacBook-Pro.local (2710)] INFO : Installing Net instrumentation
+[05/13/14 22:28:57 -0700 Stepans-MacBook-Pro.local (2710)] INFO : Installing deferred Rack instrumentation
+[05/13/14 22:28:57 -0700 Stepans-MacBook-Pro.local (2710)] INFO : Installing Sidekiq instrumentation
+[05/13/14 22:28:57 -0700 Stepans-MacBook-Pro.local (2710)] INFO : Installing Rails 4 Controller instrumentation
+[05/13/14 22:28:57 -0700 Stepans-MacBook-Pro.local (2710)] INFO : Installing Rails 4 view instrumentation
+[05/13/14 22:28:57 -0700 Stepans-MacBook-Pro.local (2710)] INFO : Installing Rails4 Error instrumentation
+[05/13/14 22:28:57 -0700 Stepans-MacBook-Pro.local (2710)] INFO : Finished instrumentation
+[05/13/14 22:30:20 -0700 Stepans-MacBook-Pro.local (2728)] INFO : Starting the New Relic agent in "development" environment.
+[05/13/14 22:30:20 -0700 Stepans-MacBook-Pro.local (2728)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/13/14 22:30:20 -0700 Stepans-MacBook-Pro.local (2728)] INFO : Reading configuration from config/newrelic.yml
+[05/13/14 22:30:20 -0700 Stepans-MacBook-Pro.local (2728)] ERROR : Unable to read configuration file config/newrelic.yml: (<unknown>): mapping values are not allowed in this context at line 45 column 32
+[05/13/14 22:30:20 -0700 Stepans-MacBook-Pro.local (2728)] INFO : Enabling the Request Sampler.
+[05/13/14 22:30:20 -0700 Stepans-MacBook-Pro.local (2728)] INFO : Environment: development
+[05/13/14 22:30:20 -0700 Stepans-MacBook-Pro.local (2728)] INFO : Dispatcher: webrick
+[05/13/14 22:30:20 -0700 Stepans-MacBook-Pro.local (2728)] INFO : Application: development
+[05/13/14 22:30:20 -0700 Stepans-MacBook-Pro.local (2728)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[05/13/14 22:30:20 -0700 Stepans-MacBook-Pro.local (2728)] INFO : Installing ActiveRecord 4 instrumentation
+[05/13/14 22:30:20 -0700 Stepans-MacBook-Pro.local (2728)] INFO : Installing Net instrumentation
+[05/13/14 22:30:20 -0700 Stepans-MacBook-Pro.local (2728)] INFO : Installing deferred Rack instrumentation
+[05/13/14 22:30:20 -0700 Stepans-MacBook-Pro.local (2728)] INFO : Installing Sidekiq instrumentation
+[05/13/14 22:30:20 -0700 Stepans-MacBook-Pro.local (2728)] INFO : Installing Rails 4 Controller instrumentation
+[05/13/14 22:30:20 -0700 Stepans-MacBook-Pro.local (2728)] INFO : Installing Rails 4 view instrumentation
+[05/13/14 22:30:20 -0700 Stepans-MacBook-Pro.local (2728)] INFO : Installing Rails4 Error instrumentation
+[05/13/14 22:30:20 -0700 Stepans-MacBook-Pro.local (2728)] INFO : Finished instrumentation
+[05/13/14 22:30:20 -0700 Stepans-MacBook-Pro.local (2728)] INFO : Doing deferred dependency-detection before Rack startup
+[05/13/14 22:30:20 -0700 Stepans-MacBook-Pro.local (2728)] INFO : Installing Sinatra instrumentation
+[05/13/14 22:30:22 -0700 Stepans-MacBook-Pro.local (2728)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/13/14 22:30:22 -0700 Stepans-MacBook-Pro.local (2728)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/13/14 22:44:35 -0700 Stepans-MacBook-Pro.local (2864)] INFO : Starting the New Relic agent in "development" environment.
+[05/13/14 22:44:35 -0700 Stepans-MacBook-Pro.local (2864)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/13/14 22:44:35 -0700 Stepans-MacBook-Pro.local (2864)] INFO : Reading configuration from config/newrelic.yml
+[05/13/14 22:44:35 -0700 Stepans-MacBook-Pro.local (2864)] ERROR : Unable to read configuration file config/newrelic.yml: (<unknown>): mapping values are not allowed in this context at line 45 column 32
+[05/13/14 22:44:35 -0700 Stepans-MacBook-Pro.local (2864)] INFO : Enabling the Request Sampler.
+[05/13/14 22:44:35 -0700 Stepans-MacBook-Pro.local (2864)] INFO : Environment: development
+[05/13/14 22:44:35 -0700 Stepans-MacBook-Pro.local (2864)] INFO : No known dispatcher detected.
+[05/13/14 22:44:35 -0700 Stepans-MacBook-Pro.local (2864)] INFO : Application: development
+[05/13/14 22:44:35 -0700 Stepans-MacBook-Pro.local (2864)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[05/13/14 22:44:36 -0700 Stepans-MacBook-Pro.local (2864)] INFO : Installing ActiveRecord 4 instrumentation
+[05/13/14 22:44:36 -0700 Stepans-MacBook-Pro.local (2864)] INFO : Installing Net instrumentation
+[05/13/14 22:44:36 -0700 Stepans-MacBook-Pro.local (2864)] INFO : Installing deferred Rack instrumentation
+[05/13/14 22:44:36 -0700 Stepans-MacBook-Pro.local (2864)] INFO : Installing Sidekiq instrumentation
+[05/13/14 22:44:36 -0700 Stepans-MacBook-Pro.local (2864)] INFO : Installing Rails 4 Controller instrumentation
+[05/13/14 22:44:36 -0700 Stepans-MacBook-Pro.local (2864)] INFO : Installing Rails 4 view instrumentation
+[05/13/14 22:44:36 -0700 Stepans-MacBook-Pro.local (2864)] INFO : Installing Rails4 Error instrumentation
+[05/13/14 22:44:36 -0700 Stepans-MacBook-Pro.local (2864)] INFO : Finished instrumentation
+[05/13/14 22:44:59 -0700 Stepans-MacBook-Pro.local (2875)] INFO : Starting the New Relic agent in "development" environment.
+[05/13/14 22:44:59 -0700 Stepans-MacBook-Pro.local (2875)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/13/14 22:44:59 -0700 Stepans-MacBook-Pro.local (2875)] INFO : Reading configuration from config/newrelic.yml
+[05/13/14 22:44:59 -0700 Stepans-MacBook-Pro.local (2875)] ERROR : Unable to read configuration file config/newrelic.yml: (<unknown>): mapping values are not allowed in this context at line 45 column 32
+[05/13/14 22:44:59 -0700 Stepans-MacBook-Pro.local (2875)] INFO : Enabling the Request Sampler.
+[05/13/14 22:44:59 -0700 Stepans-MacBook-Pro.local (2875)] INFO : Environment: development
+[05/13/14 22:44:59 -0700 Stepans-MacBook-Pro.local (2875)] INFO : Dispatcher: webrick
+[05/13/14 22:44:59 -0700 Stepans-MacBook-Pro.local (2875)] INFO : Application: development
+[05/13/14 22:44:59 -0700 Stepans-MacBook-Pro.local (2875)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[05/13/14 22:44:59 -0700 Stepans-MacBook-Pro.local (2875)] INFO : Installing ActiveRecord 4 instrumentation
+[05/13/14 22:44:59 -0700 Stepans-MacBook-Pro.local (2875)] INFO : Installing Net instrumentation
+[05/13/14 22:44:59 -0700 Stepans-MacBook-Pro.local (2875)] INFO : Installing deferred Rack instrumentation
+[05/13/14 22:44:59 -0700 Stepans-MacBook-Pro.local (2875)] INFO : Installing Sidekiq instrumentation
+[05/13/14 22:44:59 -0700 Stepans-MacBook-Pro.local (2875)] INFO : Installing Rails 4 Controller instrumentation
+[05/13/14 22:44:59 -0700 Stepans-MacBook-Pro.local (2875)] INFO : Installing Rails 4 view instrumentation
+[05/13/14 22:44:59 -0700 Stepans-MacBook-Pro.local (2875)] INFO : Installing Rails4 Error instrumentation
+[05/13/14 22:44:59 -0700 Stepans-MacBook-Pro.local (2875)] INFO : Finished instrumentation
+[05/13/14 22:44:59 -0700 Stepans-MacBook-Pro.local (2875)] INFO : Doing deferred dependency-detection before Rack startup
+[05/13/14 22:44:59 -0700 Stepans-MacBook-Pro.local (2875)] INFO : Installing Sinatra instrumentation
+[05/13/14 22:53:15 -0700 Stepans-MacBook-Pro.local (2875)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/13/14 22:53:15 -0700 Stepans-MacBook-Pro.local (2875)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/13/14 22:59:40 -0700 Stepans-MacBook-Pro.local (3098)] INFO : Starting the New Relic agent in "development" environment.
+[05/13/14 22:59:40 -0700 Stepans-MacBook-Pro.local (3098)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/13/14 22:59:40 -0700 Stepans-MacBook-Pro.local (3098)] INFO : Reading configuration from config/newrelic.yml
+[05/13/14 22:59:40 -0700 Stepans-MacBook-Pro.local (3098)] ERROR : Unable to read configuration file config/newrelic.yml: (<unknown>): mapping values are not allowed in this context at line 45 column 32
+[05/13/14 22:59:40 -0700 Stepans-MacBook-Pro.local (3098)] INFO : Enabling the Request Sampler.
+[05/13/14 22:59:40 -0700 Stepans-MacBook-Pro.local (3098)] INFO : Environment: development
+[05/13/14 22:59:40 -0700 Stepans-MacBook-Pro.local (3098)] INFO : No known dispatcher detected.
+[05/13/14 22:59:40 -0700 Stepans-MacBook-Pro.local (3098)] INFO : Application: development
+[05/13/14 22:59:40 -0700 Stepans-MacBook-Pro.local (3098)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[05/13/14 22:59:40 -0700 Stepans-MacBook-Pro.local (3098)] INFO : Installing ActiveRecord 4 instrumentation
+[05/13/14 22:59:40 -0700 Stepans-MacBook-Pro.local (3098)] INFO : Installing Net instrumentation
+[05/13/14 22:59:40 -0700 Stepans-MacBook-Pro.local (3098)] INFO : Installing deferred Rack instrumentation
+[05/13/14 22:59:40 -0700 Stepans-MacBook-Pro.local (3098)] INFO : Installing Sidekiq instrumentation
+[05/13/14 22:59:40 -0700 Stepans-MacBook-Pro.local (3098)] INFO : Installing Rails 4 Controller instrumentation
+[05/13/14 22:59:40 -0700 Stepans-MacBook-Pro.local (3098)] INFO : Installing Rails 4 view instrumentation
+[05/13/14 22:59:40 -0700 Stepans-MacBook-Pro.local (3098)] INFO : Installing Rails4 Error instrumentation
+[05/13/14 22:59:40 -0700 Stepans-MacBook-Pro.local (3098)] INFO : Finished instrumentation
+[05/13/14 23:00:10 -0700 Stepans-MacBook-Pro.local (3236)] INFO : Starting the New Relic agent in "development" environment.
+[05/13/14 23:00:10 -0700 Stepans-MacBook-Pro.local (3236)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/13/14 23:00:10 -0700 Stepans-MacBook-Pro.local (3236)] INFO : Reading configuration from config/newrelic.yml
+[05/13/14 23:00:10 -0700 Stepans-MacBook-Pro.local (3236)] ERROR : Unable to read configuration file config/newrelic.yml: (<unknown>): mapping values are not allowed in this context at line 45 column 32
+[05/13/14 23:00:10 -0700 Stepans-MacBook-Pro.local (3236)] INFO : Enabling the Request Sampler.
+[05/13/14 23:00:10 -0700 Stepans-MacBook-Pro.local (3236)] INFO : Environment: development
+[05/13/14 23:00:10 -0700 Stepans-MacBook-Pro.local (3236)] INFO : No known dispatcher detected.
+[05/13/14 23:00:10 -0700 Stepans-MacBook-Pro.local (3236)] INFO : Application: development
+[05/13/14 23:00:10 -0700 Stepans-MacBook-Pro.local (3236)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[05/13/14 23:00:10 -0700 Stepans-MacBook-Pro.local (3236)] INFO : Installing ActiveRecord 4 instrumentation
+[05/13/14 23:00:10 -0700 Stepans-MacBook-Pro.local (3236)] INFO : Installing Net instrumentation
+[05/13/14 23:00:10 -0700 Stepans-MacBook-Pro.local (3236)] INFO : Installing deferred Rack instrumentation
+[05/13/14 23:00:10 -0700 Stepans-MacBook-Pro.local (3236)] INFO : Installing Sidekiq instrumentation
+[05/13/14 23:00:10 -0700 Stepans-MacBook-Pro.local (3236)] INFO : Installing Rails 4 Controller instrumentation
+[05/13/14 23:00:10 -0700 Stepans-MacBook-Pro.local (3236)] INFO : Installing Rails 4 view instrumentation
+[05/13/14 23:00:10 -0700 Stepans-MacBook-Pro.local (3236)] INFO : Installing Rails4 Error instrumentation
+[05/13/14 23:00:10 -0700 Stepans-MacBook-Pro.local (3236)] INFO : Finished instrumentation
+[05/13/14 23:26:56 -0700 Stepans-MacBook-Pro.local (3933)] INFO : Starting the New Relic agent in "development" environment.
+[05/13/14 23:26:56 -0700 Stepans-MacBook-Pro.local (3933)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/13/14 23:26:56 -0700 Stepans-MacBook-Pro.local (3933)] INFO : Reading configuration from config/newrelic.yml
+[05/13/14 23:26:56 -0700 Stepans-MacBook-Pro.local (3933)] ERROR : Unable to read configuration file config/newrelic.yml: (<unknown>): mapping values are not allowed in this context at line 45 column 32
+[05/13/14 23:26:56 -0700 Stepans-MacBook-Pro.local (3933)] INFO : Enabling the Request Sampler.
+[05/13/14 23:26:56 -0700 Stepans-MacBook-Pro.local (3933)] INFO : Environment: development
+[05/13/14 23:26:56 -0700 Stepans-MacBook-Pro.local (3933)] INFO : No known dispatcher detected.
+[05/13/14 23:26:56 -0700 Stepans-MacBook-Pro.local (3933)] INFO : Application: development
+[05/13/14 23:26:56 -0700 Stepans-MacBook-Pro.local (3933)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[05/13/14 23:26:56 -0700 Stepans-MacBook-Pro.local (3933)] INFO : Installing ActiveRecord 4 instrumentation
+[05/13/14 23:26:56 -0700 Stepans-MacBook-Pro.local (3933)] INFO : Installing Net instrumentation
+[05/13/14 23:26:56 -0700 Stepans-MacBook-Pro.local (3933)] INFO : Installing deferred Rack instrumentation
+[05/13/14 23:26:56 -0700 Stepans-MacBook-Pro.local (3933)] INFO : Installing Sidekiq instrumentation
+[05/13/14 23:26:56 -0700 Stepans-MacBook-Pro.local (3933)] INFO : Installing Rails 4 Controller instrumentation
+[05/13/14 23:26:56 -0700 Stepans-MacBook-Pro.local (3933)] INFO : Installing Rails 4 view instrumentation
+[05/13/14 23:26:56 -0700 Stepans-MacBook-Pro.local (3933)] INFO : Installing Rails4 Error instrumentation
+[05/13/14 23:26:56 -0700 Stepans-MacBook-Pro.local (3933)] INFO : Finished instrumentation
+[05/13/14 23:27:23 -0700 Stepans-MacBook-Pro.local (3945)] INFO : Starting the New Relic agent in "development" environment.
+[05/13/14 23:27:23 -0700 Stepans-MacBook-Pro.local (3945)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/13/14 23:27:23 -0700 Stepans-MacBook-Pro.local (3945)] INFO : Reading configuration from config/newrelic.yml
+[05/13/14 23:27:23 -0700 Stepans-MacBook-Pro.local (3945)] ERROR : Unable to read configuration file config/newrelic.yml: (<unknown>): mapping values are not allowed in this context at line 45 column 32
+[05/13/14 23:27:23 -0700 Stepans-MacBook-Pro.local (3945)] INFO : Enabling the Request Sampler.
+[05/13/14 23:27:23 -0700 Stepans-MacBook-Pro.local (3945)] INFO : Environment: development
+[05/13/14 23:27:23 -0700 Stepans-MacBook-Pro.local (3945)] INFO : Dispatcher: webrick
+[05/13/14 23:27:23 -0700 Stepans-MacBook-Pro.local (3945)] INFO : Application: development
+[05/13/14 23:27:23 -0700 Stepans-MacBook-Pro.local (3945)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[05/13/14 23:27:23 -0700 Stepans-MacBook-Pro.local (3945)] INFO : Installing ActiveRecord 4 instrumentation
+[05/13/14 23:27:23 -0700 Stepans-MacBook-Pro.local (3945)] INFO : Installing Net instrumentation
+[05/13/14 23:27:23 -0700 Stepans-MacBook-Pro.local (3945)] INFO : Installing deferred Rack instrumentation
+[05/13/14 23:27:23 -0700 Stepans-MacBook-Pro.local (3945)] INFO : Installing Sidekiq instrumentation
+[05/13/14 23:27:23 -0700 Stepans-MacBook-Pro.local (3945)] INFO : Installing Rails 4 Controller instrumentation
+[05/13/14 23:27:23 -0700 Stepans-MacBook-Pro.local (3945)] INFO : Installing Rails 4 view instrumentation
+[05/13/14 23:27:23 -0700 Stepans-MacBook-Pro.local (3945)] INFO : Installing Rails4 Error instrumentation
+[05/13/14 23:27:23 -0700 Stepans-MacBook-Pro.local (3945)] INFO : Finished instrumentation
+[05/13/14 23:27:23 -0700 Stepans-MacBook-Pro.local (3945)] INFO : Doing deferred dependency-detection before Rack startup
+[05/13/14 23:27:23 -0700 Stepans-MacBook-Pro.local (3945)] INFO : Installing Sinatra instrumentation
+[05/13/14 23:28:06 -0700 Stepans-MacBook-Pro.local (3945)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/13/14 23:28:06 -0700 Stepans-MacBook-Pro.local (3945)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/13/14 23:30:21 -0700 Stepans-MacBook-Pro.local (3979)] INFO : Starting the New Relic agent in "development" environment.
+[05/13/14 23:30:21 -0700 Stepans-MacBook-Pro.local (3979)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/13/14 23:30:21 -0700 Stepans-MacBook-Pro.local (3979)] INFO : Reading configuration from config/newrelic.yml
+[05/13/14 23:30:21 -0700 Stepans-MacBook-Pro.local (3979)] ERROR : Unable to read configuration file config/newrelic.yml: (<unknown>): mapping values are not allowed in this context at line 45 column 32
+[05/13/14 23:30:21 -0700 Stepans-MacBook-Pro.local (3979)] INFO : Enabling the Request Sampler.
+[05/13/14 23:30:21 -0700 Stepans-MacBook-Pro.local (3979)] INFO : Environment: development
+[05/13/14 23:30:21 -0700 Stepans-MacBook-Pro.local (3979)] INFO : No known dispatcher detected.
+[05/13/14 23:30:21 -0700 Stepans-MacBook-Pro.local (3979)] INFO : Application: development
+[05/13/14 23:30:21 -0700 Stepans-MacBook-Pro.local (3979)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[05/13/14 23:30:21 -0700 Stepans-MacBook-Pro.local (3979)] INFO : Installing ActiveRecord 4 instrumentation
+[05/13/14 23:30:21 -0700 Stepans-MacBook-Pro.local (3979)] INFO : Installing Net instrumentation
+[05/13/14 23:30:21 -0700 Stepans-MacBook-Pro.local (3979)] INFO : Installing deferred Rack instrumentation
+[05/13/14 23:30:21 -0700 Stepans-MacBook-Pro.local (3979)] INFO : Installing Sidekiq instrumentation
+[05/13/14 23:30:21 -0700 Stepans-MacBook-Pro.local (3979)] INFO : Installing Rails 4 Controller instrumentation
+[05/13/14 23:30:21 -0700 Stepans-MacBook-Pro.local (3979)] INFO : Installing Rails 4 view instrumentation
+[05/13/14 23:30:21 -0700 Stepans-MacBook-Pro.local (3979)] INFO : Installing Rails4 Error instrumentation
+[05/13/14 23:30:21 -0700 Stepans-MacBook-Pro.local (3979)] INFO : Finished instrumentation
+[05/13/14 23:35:04 -0700 Stepans-MacBook-Pro.local (4022)] INFO : Starting the New Relic agent in "development" environment.
+[05/13/14 23:35:04 -0700 Stepans-MacBook-Pro.local (4022)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/13/14 23:35:04 -0700 Stepans-MacBook-Pro.local (4022)] INFO : Reading configuration from config/newrelic.yml
+[05/13/14 23:35:04 -0700 Stepans-MacBook-Pro.local (4022)] ERROR : Unable to read configuration file config/newrelic.yml: (<unknown>): mapping values are not allowed in this context at line 45 column 32
+[05/13/14 23:35:04 -0700 Stepans-MacBook-Pro.local (4022)] INFO : Enabling the Request Sampler.
+[05/13/14 23:35:04 -0700 Stepans-MacBook-Pro.local (4022)] INFO : Environment: development
+[05/13/14 23:35:04 -0700 Stepans-MacBook-Pro.local (4022)] INFO : No known dispatcher detected.
+[05/13/14 23:35:04 -0700 Stepans-MacBook-Pro.local (4022)] INFO : Application: development
+[05/13/14 23:35:04 -0700 Stepans-MacBook-Pro.local (4022)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[05/13/14 23:35:04 -0700 Stepans-MacBook-Pro.local (4022)] INFO : Installing ActiveRecord 4 instrumentation
+[05/13/14 23:35:04 -0700 Stepans-MacBook-Pro.local (4022)] INFO : Installing Net instrumentation
+[05/13/14 23:35:04 -0700 Stepans-MacBook-Pro.local (4022)] INFO : Installing deferred Rack instrumentation
+[05/13/14 23:35:04 -0700 Stepans-MacBook-Pro.local (4022)] INFO : Installing Sidekiq instrumentation
+[05/13/14 23:35:04 -0700 Stepans-MacBook-Pro.local (4022)] INFO : Installing Rails 4 Controller instrumentation
+[05/13/14 23:35:04 -0700 Stepans-MacBook-Pro.local (4022)] INFO : Installing Rails 4 view instrumentation
+[05/13/14 23:35:04 -0700 Stepans-MacBook-Pro.local (4022)] INFO : Installing Rails4 Error instrumentation
+[05/13/14 23:35:04 -0700 Stepans-MacBook-Pro.local (4022)] INFO : Finished instrumentation
+[05/13/14 23:35:06 -0700 Stepans-MacBook-Pro.local (4025)] INFO : Starting the New Relic agent in "development" environment.
+[05/13/14 23:35:06 -0700 Stepans-MacBook-Pro.local (4025)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/13/14 23:35:06 -0700 Stepans-MacBook-Pro.local (4025)] INFO : Reading configuration from config/newrelic.yml
+[05/13/14 23:35:06 -0700 Stepans-MacBook-Pro.local (4025)] ERROR : Unable to read configuration file config/newrelic.yml: (<unknown>): mapping values are not allowed in this context at line 45 column 32
+[05/13/14 23:35:06 -0700 Stepans-MacBook-Pro.local (4025)] INFO : Enabling the Request Sampler.
+[05/13/14 23:35:06 -0700 Stepans-MacBook-Pro.local (4025)] INFO : Environment: development
+[05/13/14 23:35:06 -0700 Stepans-MacBook-Pro.local (4025)] INFO : Dispatcher: webrick
+[05/13/14 23:35:06 -0700 Stepans-MacBook-Pro.local (4025)] INFO : Application: development
+[05/13/14 23:35:06 -0700 Stepans-MacBook-Pro.local (4025)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[05/13/14 23:35:06 -0700 Stepans-MacBook-Pro.local (4025)] INFO : Installing ActiveRecord 4 instrumentation
+[05/13/14 23:35:06 -0700 Stepans-MacBook-Pro.local (4025)] INFO : Installing Net instrumentation
+[05/13/14 23:35:06 -0700 Stepans-MacBook-Pro.local (4025)] INFO : Installing deferred Rack instrumentation
+[05/13/14 23:35:06 -0700 Stepans-MacBook-Pro.local (4025)] INFO : Installing Sidekiq instrumentation
+[05/13/14 23:35:06 -0700 Stepans-MacBook-Pro.local (4025)] INFO : Installing Rails 4 Controller instrumentation
+[05/13/14 23:35:06 -0700 Stepans-MacBook-Pro.local (4025)] INFO : Installing Rails 4 view instrumentation
+[05/13/14 23:35:06 -0700 Stepans-MacBook-Pro.local (4025)] INFO : Installing Rails4 Error instrumentation
+[05/13/14 23:35:06 -0700 Stepans-MacBook-Pro.local (4025)] INFO : Finished instrumentation
+[05/13/14 23:35:07 -0700 Stepans-MacBook-Pro.local (4025)] INFO : Doing deferred dependency-detection before Rack startup
+[05/13/14 23:35:07 -0700 Stepans-MacBook-Pro.local (4025)] INFO : Installing Sinatra instrumentation
+[05/13/14 23:35:08 -0700 Stepans-MacBook-Pro.local (4025)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/13/14 23:35:08 -0700 Stepans-MacBook-Pro.local (4025)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/13/14 23:46:16 -0700 Stepans-MacBook-Pro.local (4106)] INFO : Starting the New Relic agent in "development" environment.
+[05/13/14 23:46:16 -0700 Stepans-MacBook-Pro.local (4106)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/13/14 23:46:16 -0700 Stepans-MacBook-Pro.local (4106)] INFO : Reading configuration from config/newrelic.yml
+[05/13/14 23:46:16 -0700 Stepans-MacBook-Pro.local (4106)] ERROR : Unable to read configuration file config/newrelic.yml: (<unknown>): mapping values are not allowed in this context at line 45 column 32
+[05/13/14 23:46:16 -0700 Stepans-MacBook-Pro.local (4106)] INFO : Enabling the Request Sampler.
+[05/13/14 23:46:16 -0700 Stepans-MacBook-Pro.local (4106)] INFO : Environment: development
+[05/13/14 23:46:16 -0700 Stepans-MacBook-Pro.local (4106)] INFO : No known dispatcher detected.
+[05/13/14 23:46:16 -0700 Stepans-MacBook-Pro.local (4106)] INFO : Application: development
+[05/13/14 23:46:16 -0700 Stepans-MacBook-Pro.local (4106)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[05/13/14 23:46:16 -0700 Stepans-MacBook-Pro.local (4106)] INFO : Installing ActiveRecord 4 instrumentation
+[05/13/14 23:46:16 -0700 Stepans-MacBook-Pro.local (4106)] INFO : Installing Net instrumentation
+[05/13/14 23:46:16 -0700 Stepans-MacBook-Pro.local (4106)] INFO : Installing deferred Rack instrumentation
+[05/13/14 23:46:16 -0700 Stepans-MacBook-Pro.local (4106)] INFO : Installing Sidekiq instrumentation
+[05/13/14 23:46:16 -0700 Stepans-MacBook-Pro.local (4106)] INFO : Installing Typhoeus instrumentation
+[05/13/14 23:46:16 -0700 Stepans-MacBook-Pro.local (4106)] INFO : Installing Rails 4 Controller instrumentation
+[05/13/14 23:46:16 -0700 Stepans-MacBook-Pro.local (4106)] INFO : Installing Rails 4 view instrumentation
+[05/13/14 23:46:16 -0700 Stepans-MacBook-Pro.local (4106)] INFO : Installing Rails4 Error instrumentation
+[05/13/14 23:46:16 -0700 Stepans-MacBook-Pro.local (4106)] INFO : Finished instrumentation
+[05/13/14 23:46:25 -0700 Stepans-MacBook-Pro.local (4115)] INFO : Starting the New Relic agent in "development" environment.
+[05/13/14 23:46:25 -0700 Stepans-MacBook-Pro.local (4115)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/13/14 23:46:25 -0700 Stepans-MacBook-Pro.local (4115)] INFO : Reading configuration from config/newrelic.yml
+[05/13/14 23:46:25 -0700 Stepans-MacBook-Pro.local (4115)] ERROR : Unable to read configuration file config/newrelic.yml: (<unknown>): mapping values are not allowed in this context at line 45 column 32
+[05/13/14 23:46:25 -0700 Stepans-MacBook-Pro.local (4115)] INFO : Enabling the Request Sampler.
+[05/13/14 23:46:25 -0700 Stepans-MacBook-Pro.local (4115)] INFO : Environment: development
+[05/13/14 23:46:25 -0700 Stepans-MacBook-Pro.local (4115)] INFO : Dispatcher: webrick
+[05/13/14 23:46:25 -0700 Stepans-MacBook-Pro.local (4115)] INFO : Application: development
+[05/13/14 23:46:25 -0700 Stepans-MacBook-Pro.local (4115)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[05/13/14 23:46:25 -0700 Stepans-MacBook-Pro.local (4115)] INFO : Installing ActiveRecord 4 instrumentation
+[05/13/14 23:46:25 -0700 Stepans-MacBook-Pro.local (4115)] INFO : Installing Net instrumentation
+[05/13/14 23:46:25 -0700 Stepans-MacBook-Pro.local (4115)] INFO : Installing deferred Rack instrumentation
+[05/13/14 23:46:25 -0700 Stepans-MacBook-Pro.local (4115)] INFO : Installing Sidekiq instrumentation
+[05/13/14 23:46:25 -0700 Stepans-MacBook-Pro.local (4115)] INFO : Installing Typhoeus instrumentation
+[05/13/14 23:46:25 -0700 Stepans-MacBook-Pro.local (4115)] INFO : Installing Rails 4 Controller instrumentation
+[05/13/14 23:46:25 -0700 Stepans-MacBook-Pro.local (4115)] INFO : Installing Rails 4 view instrumentation
+[05/13/14 23:46:25 -0700 Stepans-MacBook-Pro.local (4115)] INFO : Installing Rails4 Error instrumentation
+[05/13/14 23:46:25 -0700 Stepans-MacBook-Pro.local (4115)] INFO : Finished instrumentation
+[05/13/14 23:46:25 -0700 Stepans-MacBook-Pro.local (4115)] INFO : Doing deferred dependency-detection before Rack startup
+[05/13/14 23:46:25 -0700 Stepans-MacBook-Pro.local (4115)] INFO : Installing Sinatra instrumentation
+[05/13/14 23:46:28 -0700 Stepans-MacBook-Pro.local (4115)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/13/14 23:46:28 -0700 Stepans-MacBook-Pro.local (4115)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/13/14 23:50:52 -0700 Stepans-MacBook-Pro.local (4155)] INFO : Starting the New Relic agent in "development" environment.
+[05/13/14 23:50:52 -0700 Stepans-MacBook-Pro.local (4155)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/13/14 23:50:52 -0700 Stepans-MacBook-Pro.local (4155)] INFO : Reading configuration from config/newrelic.yml
+[05/13/14 23:50:52 -0700 Stepans-MacBook-Pro.local (4155)] ERROR : Unable to read configuration file config/newrelic.yml: (<unknown>): mapping values are not allowed in this context at line 45 column 32
+[05/13/14 23:50:52 -0700 Stepans-MacBook-Pro.local (4155)] INFO : Enabling the Request Sampler.
+[05/13/14 23:50:52 -0700 Stepans-MacBook-Pro.local (4155)] INFO : Environment: development
+[05/13/14 23:50:52 -0700 Stepans-MacBook-Pro.local (4155)] INFO : No known dispatcher detected.
+[05/13/14 23:50:52 -0700 Stepans-MacBook-Pro.local (4155)] INFO : Application: development
+[05/13/14 23:50:52 -0700 Stepans-MacBook-Pro.local (4155)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[05/13/14 23:50:53 -0700 Stepans-MacBook-Pro.local (4155)] INFO : Installing ActiveRecord 4 instrumentation
+[05/13/14 23:50:53 -0700 Stepans-MacBook-Pro.local (4155)] INFO : Installing Net instrumentation
+[05/13/14 23:50:53 -0700 Stepans-MacBook-Pro.local (4155)] INFO : Installing deferred Rack instrumentation
+[05/13/14 23:50:53 -0700 Stepans-MacBook-Pro.local (4155)] INFO : Installing Sidekiq instrumentation
+[05/13/14 23:50:53 -0700 Stepans-MacBook-Pro.local (4155)] INFO : Installing Rails 4 Controller instrumentation
+[05/13/14 23:50:53 -0700 Stepans-MacBook-Pro.local (4155)] INFO : Installing Rails 4 view instrumentation
+[05/13/14 23:50:53 -0700 Stepans-MacBook-Pro.local (4155)] INFO : Installing Rails4 Error instrumentation
+[05/13/14 23:50:53 -0700 Stepans-MacBook-Pro.local (4155)] INFO : Finished instrumentation
+[05/13/14 23:51:14 -0700 Stepans-MacBook-Pro.local (4167)] INFO : Starting the New Relic agent in "development" environment.
+[05/13/14 23:51:14 -0700 Stepans-MacBook-Pro.local (4167)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/13/14 23:51:14 -0700 Stepans-MacBook-Pro.local (4167)] INFO : Reading configuration from config/newrelic.yml
+[05/13/14 23:51:14 -0700 Stepans-MacBook-Pro.local (4167)] ERROR : Unable to read configuration file config/newrelic.yml: (<unknown>): mapping values are not allowed in this context at line 45 column 32
+[05/13/14 23:51:14 -0700 Stepans-MacBook-Pro.local (4167)] INFO : Enabling the Request Sampler.
+[05/13/14 23:51:14 -0700 Stepans-MacBook-Pro.local (4167)] INFO : Environment: development
+[05/13/14 23:51:14 -0700 Stepans-MacBook-Pro.local (4167)] INFO : Dispatcher: webrick
+[05/13/14 23:51:14 -0700 Stepans-MacBook-Pro.local (4167)] INFO : Application: development
+[05/13/14 23:51:14 -0700 Stepans-MacBook-Pro.local (4167)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[05/13/14 23:51:14 -0700 Stepans-MacBook-Pro.local (4167)] INFO : Installing ActiveRecord 4 instrumentation
+[05/13/14 23:51:14 -0700 Stepans-MacBook-Pro.local (4167)] INFO : Installing Net instrumentation
+[05/13/14 23:51:14 -0700 Stepans-MacBook-Pro.local (4167)] INFO : Installing deferred Rack instrumentation
+[05/13/14 23:51:14 -0700 Stepans-MacBook-Pro.local (4167)] INFO : Installing Sidekiq instrumentation
+[05/13/14 23:51:14 -0700 Stepans-MacBook-Pro.local (4167)] INFO : Installing Rails 4 Controller instrumentation
+[05/13/14 23:51:14 -0700 Stepans-MacBook-Pro.local (4167)] INFO : Installing Rails 4 view instrumentation
+[05/13/14 23:51:14 -0700 Stepans-MacBook-Pro.local (4167)] INFO : Installing Rails4 Error instrumentation
+[05/13/14 23:51:14 -0700 Stepans-MacBook-Pro.local (4167)] INFO : Finished instrumentation
+[05/13/14 23:51:14 -0700 Stepans-MacBook-Pro.local (4167)] INFO : Doing deferred dependency-detection before Rack startup
+[05/13/14 23:51:14 -0700 Stepans-MacBook-Pro.local (4167)] INFO : Installing Sinatra instrumentation
+[05/13/14 23:51:44 -0700 Stepans-MacBook-Pro.local (4167)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/13/14 23:51:44 -0700 Stepans-MacBook-Pro.local (4167)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/14/14 00:07:00 -0700 Stepans-MacBook-Pro.local (4499)] INFO : Starting the New Relic agent in "development" environment.
+[05/14/14 00:07:00 -0700 Stepans-MacBook-Pro.local (4499)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/14/14 00:07:00 -0700 Stepans-MacBook-Pro.local (4499)] INFO : Reading configuration from config/newrelic.yml
+[05/14/14 00:07:00 -0700 Stepans-MacBook-Pro.local (4499)] ERROR : Unable to read configuration file config/newrelic.yml: (<unknown>): mapping values are not allowed in this context at line 45 column 32
+[05/14/14 00:07:00 -0700 Stepans-MacBook-Pro.local (4499)] INFO : Enabling the Request Sampler.
+[05/14/14 00:07:00 -0700 Stepans-MacBook-Pro.local (4499)] INFO : Environment: development
+[05/14/14 00:07:00 -0700 Stepans-MacBook-Pro.local (4499)] INFO : No known dispatcher detected.
+[05/14/14 00:07:00 -0700 Stepans-MacBook-Pro.local (4499)] INFO : Application: development
+[05/14/14 00:07:00 -0700 Stepans-MacBook-Pro.local (4499)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[05/14/14 00:07:00 -0700 Stepans-MacBook-Pro.local (4499)] INFO : Installing ActiveRecord 4 instrumentation
+[05/14/14 00:07:00 -0700 Stepans-MacBook-Pro.local (4499)] INFO : Installing Net instrumentation
+[05/14/14 00:07:00 -0700 Stepans-MacBook-Pro.local (4499)] INFO : Installing deferred Rack instrumentation
+[05/14/14 00:07:00 -0700 Stepans-MacBook-Pro.local (4499)] INFO : Installing Sidekiq instrumentation
+[05/14/14 00:07:00 -0700 Stepans-MacBook-Pro.local (4499)] INFO : Installing Rails 4 Controller instrumentation
+[05/14/14 00:07:00 -0700 Stepans-MacBook-Pro.local (4499)] INFO : Installing Rails 4 view instrumentation
+[05/14/14 00:07:00 -0700 Stepans-MacBook-Pro.local (4499)] INFO : Installing Rails4 Error instrumentation
+[05/14/14 00:07:00 -0700 Stepans-MacBook-Pro.local (4499)] INFO : Finished instrumentation
+[05/14/14 11:35:29 -0700 Stepans-MacBook-Pro.local (5304)] INFO : Starting the New Relic agent in "development" environment.
+[05/14/14 11:35:29 -0700 Stepans-MacBook-Pro.local (5304)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/14/14 11:35:29 -0700 Stepans-MacBook-Pro.local (5304)] INFO : Reading configuration from config/newrelic.yml
+[05/14/14 11:35:29 -0700 Stepans-MacBook-Pro.local (5304)] ERROR : Unable to read configuration file config/newrelic.yml: (<unknown>): mapping values are not allowed in this context at line 45 column 32
+[05/14/14 11:35:29 -0700 Stepans-MacBook-Pro.local (5304)] INFO : Enabling the Request Sampler.
+[05/14/14 11:35:29 -0700 Stepans-MacBook-Pro.local (5304)] INFO : Environment: development
+[05/14/14 11:35:29 -0700 Stepans-MacBook-Pro.local (5304)] INFO : Dispatcher: webrick
+[05/14/14 11:35:29 -0700 Stepans-MacBook-Pro.local (5304)] INFO : Application: development
+[05/14/14 11:35:29 -0700 Stepans-MacBook-Pro.local (5304)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[05/14/14 11:35:29 -0700 Stepans-MacBook-Pro.local (5304)] INFO : Installing ActiveRecord 4 instrumentation
+[05/14/14 11:35:29 -0700 Stepans-MacBook-Pro.local (5304)] INFO : Installing Net instrumentation
+[05/14/14 11:35:29 -0700 Stepans-MacBook-Pro.local (5304)] INFO : Installing deferred Rack instrumentation
+[05/14/14 11:35:29 -0700 Stepans-MacBook-Pro.local (5304)] INFO : Installing Sidekiq instrumentation
+[05/14/14 11:35:29 -0700 Stepans-MacBook-Pro.local (5304)] INFO : Installing Rails 4 Controller instrumentation
+[05/14/14 11:35:29 -0700 Stepans-MacBook-Pro.local (5304)] INFO : Installing Rails 4 view instrumentation
+[05/14/14 11:35:29 -0700 Stepans-MacBook-Pro.local (5304)] INFO : Installing Rails4 Error instrumentation
+[05/14/14 11:35:29 -0700 Stepans-MacBook-Pro.local (5304)] INFO : Finished instrumentation
+[05/14/14 11:35:29 -0700 Stepans-MacBook-Pro.local (5304)] INFO : Doing deferred dependency-detection before Rack startup
+[05/14/14 11:35:29 -0700 Stepans-MacBook-Pro.local (5304)] INFO : Installing Sinatra instrumentation
+[05/14/14 11:36:45 -0700 Stepans-MacBook-Pro.local (5304)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/14/14 11:36:45 -0700 Stepans-MacBook-Pro.local (5304)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/14/14 11:57:10 -0700 Stepans-MacBook-Pro.local (5609)] INFO : Starting the New Relic agent in "development" environment.
+[05/14/14 11:57:10 -0700 Stepans-MacBook-Pro.local (5609)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/14/14 11:57:10 -0700 Stepans-MacBook-Pro.local (5609)] INFO : Reading configuration from config/newrelic.yml
+[05/14/14 11:57:10 -0700 Stepans-MacBook-Pro.local (5609)] ERROR : Unable to read configuration file config/newrelic.yml: (<unknown>): mapping values are not allowed in this context at line 45 column 32
+[05/14/14 11:57:10 -0700 Stepans-MacBook-Pro.local (5609)] INFO : Enabling the Request Sampler.
+[05/14/14 11:57:10 -0700 Stepans-MacBook-Pro.local (5609)] INFO : Environment: development
+[05/14/14 11:57:10 -0700 Stepans-MacBook-Pro.local (5609)] INFO : Dispatcher: webrick
+[05/14/14 11:57:10 -0700 Stepans-MacBook-Pro.local (5609)] INFO : Application: development
+[05/14/14 11:57:10 -0700 Stepans-MacBook-Pro.local (5609)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[05/14/14 11:57:10 -0700 Stepans-MacBook-Pro.local (5609)] INFO : Installing ActiveRecord 4 instrumentation
+[05/14/14 11:57:10 -0700 Stepans-MacBook-Pro.local (5609)] INFO : Installing Net instrumentation
+[05/14/14 11:57:10 -0700 Stepans-MacBook-Pro.local (5609)] INFO : Installing deferred Rack instrumentation
+[05/14/14 11:57:10 -0700 Stepans-MacBook-Pro.local (5609)] INFO : Installing Sidekiq instrumentation
+[05/14/14 11:57:10 -0700 Stepans-MacBook-Pro.local (5609)] INFO : Installing Rails 4 Controller instrumentation
+[05/14/14 11:57:10 -0700 Stepans-MacBook-Pro.local (5609)] INFO : Installing Rails 4 view instrumentation
+[05/14/14 11:57:10 -0700 Stepans-MacBook-Pro.local (5609)] INFO : Installing Rails4 Error instrumentation
+[05/14/14 11:57:10 -0700 Stepans-MacBook-Pro.local (5609)] INFO : Finished instrumentation
+[05/14/14 11:57:10 -0700 Stepans-MacBook-Pro.local (5609)] INFO : Doing deferred dependency-detection before Rack startup
+[05/14/14 11:57:10 -0700 Stepans-MacBook-Pro.local (5609)] INFO : Installing Sinatra instrumentation
+[05/14/14 11:57:12 -0700 Stepans-MacBook-Pro.local (5609)] ERROR : Invalid license key, please contact support@newrelic.com
+[05/14/14 11:57:13 -0700 Stepans-MacBook-Pro.local (5609)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[05/14/14 12:35:38 -0700 Stepans-MacBook-Pro.local (5609)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Inconsistent indentation: 4 spaces used for indentation, but the rest of the document was indented using 3 spaces.
+[05/14/14 12:35:43 -0700 Stepans-MacBook-Pro.local (5609)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Inconsistent indentation: 4 spaces used for indentation, but the rest of the document was indented using 3 spaces.
+[05/14/14 12:39:00 -0700 Stepans-MacBook-Pro.local (5609)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Illegal nesting: nesting within plain text is illegal.
+[05/14/14 12:40:28 -0700 Stepans-MacBook-Pro.local (5609)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: The line was indented 2 levels deeper than the previous line.
+[05/14/14 12:51:22 -0700 Stepans-MacBook-Pro.local (5995)] INFO : Starting the New Relic agent in "development" environment.
+[05/14/14 12:51:22 -0700 Stepans-MacBook-Pro.local (5995)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[05/14/14 12:51:22 -0700 Stepans-MacBook-Pro.local (5995)] INFO : Reading configuration from config/newrelic.yml
+[05/14/14 12:51:22 -0700 Stepans-MacBook-Pro.local (5995)] ERROR : Unable to read configuration file config/newrelic.yml: (<unknown>): mapping values are not allowed in this context at line 45 column 32
+[05/14/14 12:51:22 -0700 Stepans-MacBook-Pro.local (5995)] INFO : Enabling the Request Sampler.
+[05/14/14 12:51:22 -0700 Stepans-MacBook-Pro.local (5995)] INFO : Environment: development
+[05/14/14 12:51:22 -0700 Stepans-MacBook-Pro.local (5995)] INFO : No known dispatcher detected.
+[05/14/14 12:51:22 -0700 Stepans-MacBook-Pro.local (5995)] INFO : Application: development
+[05/14/14 12:51:22 -0700 Stepans-MacBook-Pro.local (5995)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[05/14/14 12:51:22 -0700 Stepans-MacBook-Pro.local (5995)] INFO : Installing ActiveRecord 4 instrumentation
+[05/14/14 12:51:22 -0700 Stepans-MacBook-Pro.local (5995)] INFO : Installing Net instrumentation
+[05/14/14 12:51:22 -0700 Stepans-MacBook-Pro.local (5995)] INFO : Installing deferred Rack instrumentation
+[05/14/14 12:51:22 -0700 Stepans-MacBook-Pro.local (5995)] INFO : Installing Sidekiq instrumentation
+[05/14/14 12:51:22 -0700 Stepans-MacBook-Pro.local (5995)] INFO : Installing Rails 4 Controller instrumentation
+[05/14/14 12:51:22 -0700 Stepans-MacBook-Pro.local (5995)] INFO : Installing Rails 4 view instrumentation
+[05/14/14 12:51:22 -0700 Stepans-MacBook-Pro.local (5995)] INFO : Installing Rails4 Error instrumentation
+[05/14/14 12:51:22 -0700 Stepans-MacBook-Pro.local (5995)] INFO : Finished instrumentation
+[05/14/14 12:56:29 -0700 Stepans-MacBook-Pro.local (5609)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `cat' for #<Video:0x00000110ea5478>
+[05/14/14 12:56:29 -0700 Stepans-MacBook-Pro.local (5609)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `cat' for #<Video:0x00000108e622c0>

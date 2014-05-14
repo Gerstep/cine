@@ -13,7 +13,9 @@ gem 'terminal-notifier', group: [:development]
 # LINUX
 # gem 'rb-inotify', :group => [:development, :test]   # monitor file changes without hammering the disk
 
-
+# Embed
+gem 'embedly'
+gem 'json'
 
 # Monitoring
 gem 'rack-timeout', '~> 0.1.0beta3'
