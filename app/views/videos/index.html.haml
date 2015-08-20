@@ -12,3 +12,12 @@
   .alert.alert-dismissable{class: "alert-warning"}
     %button.close{'data-dismiss' => 'alert', 'aria-hidden' => true} &times;
     = msg
+
+%h1
+  Select the films you love
+%p
+  - @response.each do |f|
+    = image_tag @url + 'w154' + f['backdrop_path']
+    %br
+    = f['original_title']
+    %p

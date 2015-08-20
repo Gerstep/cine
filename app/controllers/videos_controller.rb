@@ -12,6 +12,12 @@ class VideosController < ApplicationController
 	end
 
 	def index
+		require 'themoviedb'
+
+		Tmdb::Api.key("0a543e78ddb43ca6a4366546c4a71850")
+		@response = Tmdb::Movie.popular
+		@url = Tmdb::Configuration.new.base_url
+
 		if params[:tag]
 			@list = Video.tagged_with(params[:tag])
 		else

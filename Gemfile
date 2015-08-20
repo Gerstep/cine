@@ -17,6 +17,9 @@ gem 'terminal-notifier', group: [:development]
 gem 'embedly'
 gem 'json'
 
+# Video Meta
+gem 'themoviedb'
+
 #Tagging
 gem 'acts-as-taggable-on'
 
